@@ -1,3 +1,8 @@
+# Versionamiento 
+Antes de abrir el proyecto debemos asegurarnos que la version de node es la siguiente:
+* Node: **20.11.0** 
+  
+
 # Instrucciones
 
 'Al abrir el proyecto se debe posicionar en la carpeta "Taller1-Esp1" se debe
