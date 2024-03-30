@@ -1,29 +1,34 @@
 <script setup>
 import NavBar from '../components/NavBar.vue';
 import songs from '../assets/data/songs.json';
+import artists from '../assets/data/artists.json';
 import MusicCard from '../components/MusicCard.vue';
+import ArtistCard from '../components/ArtistCard.vue';
 
 </script>
 
 <template>
     <NavBar />
     <div class="container">
-    <main>
+        <main>
 
-       <section class="home__explore-container">
-         <div class="home__explore-title">
-            <h1>Explorar</h1>
-            <p> Descubre nueva música, estilos y artistas. </p>
-         </div>
+            <section class="home__explore-container">
+                <div class="home__explore-title">
+                    <h1>Explorar</h1>
+                    <p> Descubre nueva música, estilos y artistas. </p>
+                </div>
 
-       </section> 
-       <section class="home__music-grid">
-        <MusicCard v-for="song in songs" :key="song.id" :song="song" />
+            </section>
 
-       </section>
-        
-       
-    </main>
+            <!-- <section class="home__artist-list">
+                <ArtistCard v-for="artist in artists" :key="artist.id" :artist="artist" />
+            </section> -->
+            <section class="home__music-grid">
+                <MusicCard v-for="song in songs" :key="song.id" :song="song" />
+            </section>
+
+
+        </main>
     </div>
 
 </template>
@@ -33,13 +38,12 @@ import MusicCard from '../components/MusicCard.vue';
 .container {
     display: flex;
     align-items: flex-end;
-    width: 100%;
+    width: 100vw;
     height: 100%;
-   
 }
 
 main {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     height: 100%;
     width: 100%;
@@ -48,7 +52,7 @@ main {
 
 }
 
-.home__explore-container{
+.home__explore-container {
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -81,13 +85,12 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
 }
+
+
+.home__artist-list {
+    display: flex;
+
+    overflow-x: auto;
+
+}
 </style>
-
-<script>
-
-
-
-
-</script>
-
-
