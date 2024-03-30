@@ -15,8 +15,8 @@ const routes = [
     component: PromotionView,
   },
   {
-    path: '/SearchResults',
-    name: 'SearchResults',
+    path: '/searchresults',
+    name: 'searchresults',
     component: SearchResults,
     props: (route) => ({ query: route.query.q })
   },
