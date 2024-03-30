@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Lemonade",
+        "releaseDate": "2016-04-23",
+        "artistID": 1,
+        "recordLabel": "Parkwood Entertainment / Columbia Records"
+    },
+    {
+        "id": 2,
+        "name": "Chuck",
+        "releaseDate": "2004-10-12",
+        "artistID": 2,
+        "recordLabel": "Island Records"
+    },
+    {
+        "id": 3,
+        "name": "Euphoria",
+        "releaseDate": "2010-07-05",
+        "artistID": 3,
+        "recordLabel": "Universal Music Latino"
+    },
+    {
+        "id": 4,
+        "name": "Dream within a Dream",
+        "releaseDate": "2017-09-15",
+        "artistID": 4,
+        "recordLabel": "Independent"
+    }
+]
