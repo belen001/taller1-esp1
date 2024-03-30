@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import PromotionView from '../view/pay/PromotionView.vue';
 import HomePage from '../view/HomePage.vue';
+import SearchResults from "../view/SearchResults.vue";
 
 const routes = [
   {
@@ -12,6 +13,12 @@ const routes = [
     path: '/pay/promotion',
     name: 'PayPromotion',
     component: PromotionView,
+  },
+  {
+    path: '/SearchResults',
+    name: 'SearchResults',
+    component: SearchResults,
+    props: (route) => ({ query: route.query.q })
   },
 ];
 
