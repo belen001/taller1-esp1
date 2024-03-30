@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Lemonade",
+        "releaseDate": "2016-04-23",
+        "artistID": 1,
+        "imageUrl": "https://media.revistavanityfair.es/photos/60e85b9064a1ecf164d07ee1/master/w_1600%2Cc_limit/3207.jpg",
+        "recordLabel": "Parkwood Entertainment / Columbia Records"
+    },
+    {
+        "id": 2,
+        "name": "Chuck",
+        "releaseDate": "2004-10-12",
+        "artistID": 2,
+        "imageUrl": "https://i.discogs.com/xlV0oNVcY5KTHr7_CU-J2ZymUgxet1DervXPCnihr20/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMjM3/MTktMTMxMjIwNjky/OC5qcGVn.jpeg",
+        "recordLabel": "Island Records"
+    },
+    {
+        "id": 3,
+        "name": "Euphoria",
+        "releaseDate": "2010-07-05",
+        "artistID": 3,
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b2/Euphoria_Album_Cover.jpg",
+        "recordLabel": "Universal Music Latino"
+    },
+    {
+        "id": 4,
+        "name": "El Dorado",
+        "releaseDate": "2017-05-26",
+        "artistID": 4,
+        "imageUrl": "https://i.discogs.com/S1X5AgbXoVe50rRGX0T5c35EfNlKOycB8Sg3co7OjPE/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTE2/MDU0LTE2MDIyODA2/NzMtMjk1MC5qcGVn.jpeg",
+        "recordLabel": "Sony Music Latin"
+    }
+]
