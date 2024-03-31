@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import PromotionView from '../view/pay/PromotionView.vue';
 import HomePage from '../view/HomePage.vue';
-import SearchResults from "../view/SearchResults.vue";
+import SearchResults from "../view/search/SearchResults.vue";
 
 const routes = [
   {
@@ -15,8 +15,8 @@ const routes = [
     component: PromotionView,
   },
   {
-    path: '/searchresults',
-    name: 'searchresults',
+    path: '/search/SearchResults',
+    name: 'SearchResults',
     component: SearchResults,
     props: (route) => ({ query: route.query.q })
   },
